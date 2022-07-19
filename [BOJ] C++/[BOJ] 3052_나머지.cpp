@@ -7,8 +7,6 @@ int main(void)
     cin.tie(NULL); ios_base::sync_with_stdio(false);
 
     int arr[10], rem[42]={0,}, count=0;  //입력배열, 나머지배열, 카운트
-    // for(int i=0;i<10;i++)
-    //     cin>>arr[i];
     
     for(int i=0;i<10;i++)
     {
