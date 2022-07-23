@@ -3,6 +3,7 @@
 #include<algorithm>
 using namespace std;
 
+//풀이 4. string으로 받은 수를 문자열을 뒤집는 reverse() 함수로 뒤집어 문자열 비교
 int main(void){
     cin.tie(NULL); ios_base::sync_with_stdio(false);
 
