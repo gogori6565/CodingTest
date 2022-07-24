@@ -9,8 +9,8 @@ int main(void)
     int time=0;
     string str;
     cin>>str;
-    //A~Z : 65~90
     
+    //A~Z : 65~90
     for(int i=0;i<str.size();i++)
     {
         if(str[i]<=67) time+=3;
