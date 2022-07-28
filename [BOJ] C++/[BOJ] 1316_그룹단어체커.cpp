@@ -1,11 +1,10 @@
 #include<iostream>
 using namespace std;
 
-//find() 함수 안쓰고
-int main(void)
-{
+//방법 1. find() 함수 사용 안함
+int main(void){
     cin.tie(NULL); ios_base::sync_with_stdio(false);
-    int n, cnt=0,k;
+    int n, cnt=0;
     cin>>n;
     string str;
 
@@ -27,7 +26,7 @@ int main(void)
     cout<<n-cnt;
 }
 
-/* find()함수 사용
+/* 방법2. find()함수 사용
 int main(void)
 {
     cin.tie(NULL); ios_base::sync_with_stdio(false);
