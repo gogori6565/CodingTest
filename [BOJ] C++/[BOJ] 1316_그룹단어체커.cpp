@@ -2,7 +2,8 @@
 using namespace std;
 
 //방법 1. find() 함수 사용 안함
-int main(void){
+int main(void)
+{
     cin.tie(NULL); ios_base::sync_with_stdio(false);
     int n, cnt=0;
     cin>>n;
@@ -38,12 +39,12 @@ int main(void)
         cin>>str;
         if(str.size()>=3){
             for(int j=0;j<str.size()-2;j++){
-                    if(str[j]!=str[j+1]){ //문장에서 앞 글자와 뒷 글자가 다른 위치에서
-                        if(str.find(str[j],j+2)!=std::string::npos){ //앞글자가 문장 내에 또 있다면
-                            cnt++;
-                            break;
-                        }
+                if(str[j]!=str[j+1]){ //문장에서 앞 문자와 뒷 문자가 다른 위치에서
+                    if(str.find(str[j],j+2)!=std::string::npos){ //앞문자가 문장 내에 또 있다면
+                        cnt++;
+                        break;
                     }
+                }
             }
         }
     }
