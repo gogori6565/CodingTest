@@ -5,7 +5,7 @@ int main(void)
 {
     cin.tie(NULL); ios_base::sync_with_stdio(false);
 
-    unsigned int a,b,c;
+    int a,b,c;
     cin>>a>>b>>c;
 
     if(b>=c){ //손익분기점 존재 X
