@@ -7,10 +7,7 @@ int main(void){
     int n;
     cin>>n;
 
-    for(int i=1;i<=n;i++)
-    {
-        cout<<i<<"\n";
-    }
+    for(int i=1;i<=n;cout<<i<<"\n",i++){}
 
     return 0;
 }
