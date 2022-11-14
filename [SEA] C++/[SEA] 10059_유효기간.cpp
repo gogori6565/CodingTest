@@ -17,5 +17,5 @@ int main(void){
         else if(num1<=12 && num1>0) cout<<"#"<<i+1<<" MMYY\n";
         else if(num2<=12 && num2>0) cout<<"#"<<i+1<<" YYMM\n";
         else cout<<"#"<<i+1<<" NA\n";
-    }
+    } 
 }

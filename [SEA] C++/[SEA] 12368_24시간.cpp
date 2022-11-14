@@ -3,7 +3,7 @@ using namespace std;
 
 int main(void){
     int t; cin>>t;
-    int a,b,sum;
+    int a, b, sum;
 
     for(int i=0;i<t;i++){
         cin>>a>>b;

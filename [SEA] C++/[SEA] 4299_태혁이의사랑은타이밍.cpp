@@ -7,6 +7,7 @@ int main(void){
 
     for(int i=0;i<t;i++){
         cin>>d>>h>>m;
+        
         if(d==11 && h<11){
             cout<<"#"<<i+1<<" -1\n";
             break;
